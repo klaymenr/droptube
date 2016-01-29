@@ -2,12 +2,12 @@
 
 I always want to "listen" youtube channel through my podcast program.  However,
 most of the services for transforming youtube channel to podcast were unable
-to work right now.  So I wrote this simple program.
+to work right now.  So I utilize some programs and create a simple program for it.
 
-Droptube is a very simple program which facilitates dropcaster
-(https://github.com/nerab/dropcaster) and youtube-dl
-(https://rg3.github.io/youtube-dl/) to manage a dropbox+youtube-based podcast
-channel.
+# Requreiment
+  - dropcaster: Soul software of Droptube `https://github.com/nerab/dropcaster`
+  - youtube-dl: Great youtube downloader `https://rg3.github.io/youtube-dl/`
+  - eyeD3: Install by `apt-get install eyeD3` under Ubuntu Linux, `brew install eyeD3` under homebrew `http://eyed3.nicfit.net/`
 
 # Usage
 
