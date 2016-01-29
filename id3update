@@ -1,0 +1,13 @@
+#!/bin/sh
+
+author=`basename $PWD`
+
+IFS="
+"
+
+for mp3 in `ls *.mp3`; do 
+	echo "handling $title"
+	title=`basename $mp3 .mp3`
+	eyeD3 --title $title --artist $author "$mp3"
+done
+
